@@ -5,5 +5,11 @@
   "license": "ISC",
   "description": "A multi-project workspace called Wenfox | 一个被叫做文狐的多项目工作区",
   "packageManager": "pnpm@10.5.0",
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3"
+  }
 }
