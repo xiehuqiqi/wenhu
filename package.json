@@ -1,0 +1,9 @@
+{
+  "name": "wenhu",
+  "version": "1.0.0",
+  "author": "xiehuqiqi",
+  "license": "ISC",
+  "description": "A multi-project workspace called Wenfox | 一个被叫做文狐的多项目工作区",
+  "packageManager": "pnpm@10.5.0",
+  "scripts": {}
+}

@@ -1,0 +1,16 @@
+# 文本文件统一换行符
+* text=auto eol=lf
+
+# 二进制文件类型声明
+*.png binary
+*.jpg binary
+*.gz binary
+*.zip binary
+*.dll binary
+
+# Rust特定配置
+*.rs linguist-language=Rust
+Cargo.toml linguist-language=TOML
+
+# Python配置
+*.py linguist-language=Python

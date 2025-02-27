@@ -1,0 +1,73 @@
+# 通用忽略规则
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 依赖目录
+node_modules/
+vendor/
+bin/
+obj/
+
+# 构建产物
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.a
+
+# 环境文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE配置
+.idea/
+.vscode/
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.venv
+venv/
+.pytest_cache/
+.coverage
+
+# 前端通用
+node_modules/
+.cache/
+.parcel-cache/
+dist/
+build/
+staticfiles/
+*.css.map
+
+# 编译产物
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# 环境文件
+.env
+.env.development
+.env.production
+.env.local
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
